@@ -16,7 +16,7 @@ public class ShipCostCalculator {
             itemPrice = in.nextDouble();
             in.nextLine();
         } else {
-            trash =  in.nextLine();
+            trash = in.nextLine();
             IO.println("You said your item cost was: \"" + trash + "\"");
             IO.println("Run the program again and enter a valid amount!");
             System.exit(0);
